@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block title %}Show books{% endblock title %}
+{% block heading %}<h1>{{book.name}}</h1>{% endblock heading %}
+{% block content %}
+<ul>
+    <li>Author: {{book.author}}</li>
+    <li>Year of publication: {{book.year}}</li>
+</ul>
+{% endblock content %}
